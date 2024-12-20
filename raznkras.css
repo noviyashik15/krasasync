@@ -1,0 +1,47 @@
+*{margin: 0; padding: 0; 
+background-color: rgb(10, 10, 78);
+}
+body{display: flex; justify-content: center;
+align-items: flex-start;
+}
+h2{text-align: center; color: white;
+padding-bottom: 1rem;
+padding-top: .5rem;
+}
+
+.hillfr1, .hillfr2, .hillfr3, 
+.hillfr4, .hillfr5
+{
+    display: inline-flex;
+    padding: 1rem 1rem 1rem 1rem;
+    border: 1px;
+    border: 3px solid gray;
+    border-radius: 1rem;  
+}
+a{
+  margin: .5rem;
+  padding: 1rem 2rem 2rem 2rem;
+  border: 3px solid gray;
+  border-radius: 1rem;  
+}
+.txtcar{color: white;
+text-decoration: none;
+}
+
+/* .frame{background-color: aquamarine;}
+@media (max-width: 880px)
+{   .frame { display: none;
+           }
+}
+@media (max-width: 880px)
+{   .mob {display: inline-flexbox; 
+          font-size: x-small;
+          position: absolute;
+          z-index: 1;
+          top: 77%;
+          left: 7%; }    
+}
+@media (max-width: 680px)
+{   .mob { display: none;
+           }
+} */

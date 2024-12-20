@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css" />
+-->  
+    <link rel="stylesheet" href="baguetteBox.min.css" />
+    <title>BoguetteBox</title>
+</head>
+<body>
+    
+    <div class="galery">
+
+        <a href="54.jpg" data-caption="Антенна 1">
+            <img src="54.jpg" alt="1 img">
+        </a>
+        <a href="58.jpg" data-caption="Антенна 2">
+            <img src="58.jpg" alt="2 img">
+        </a>
+        <a href="60.jpg" data-caption="Антенна 3">
+            <img src="60.jpg" alt="3 img">
+        </a>
+        <a href="62.jpg" data-caption="Антенна 4">
+            <img src="62.jpg" alt="4 img">
+        </a>
+
+    </div>
+
+    <script src="baguetteBox.min.js" async></script>     
+    <script>
+window.addEventListener('load', function() {
+baguetteBox.run('.galery', {
+    // caption: false,
+    // fullscreen: true,
+    animation: 'slideIn',
+    overlayBackgroundColor: 'rbga(255,0,0,0.2)'
+});
+});
+    </script>     
+<!--    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.js"></script>      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>      
+--> 
+
+</body>
+</html>
